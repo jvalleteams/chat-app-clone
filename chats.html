@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <title>チャット</title>
+  </head>
+  <body>
+    <!-- ステータスバー -->
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span class="material-symbols-outlined">
+          signal_cellular_connected_no_internet_0_bar
+        </span>
+        <span class="material-symbols-outlined"> wifi </span>
+      </div>
+      <div class="status-bar__column">
+        <span>11:20</span>
+      </div>
+      <div class="status-bar__column">
+        <span>80%</span>
+        <span class="material-symbols-outlined"> battery_charging_80 </span>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">チャット</h1>
+      <div class="screen-header__icons">
+        <span class="material-symbols-outlined"> headphones </span>
+        <span class="material-symbols-outlined"> live_tv </span>
+        <span class="material-symbols-outlined"> settings </span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="./img/tt-icon.png"
+              class="user-component__avatar user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">ティーティー</h4>
+              <h6 class="user-component__subtitle">
+                バグがでちゃったよー助け...
+              </h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">21:22</span>
+            <div class="badge">1</div>
+          </div>
+        </div>
+      </a>
+    </main>
+
+    <footer>
+      <div class="footer-space"></div>
+
+      <nav class="nav">
+        <ul class="nav__list">
+          <li class="nav__btn">
+            <a href="friends.html">
+              <span class="material-symbols-outlined"> person </span>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a href="chats.html">
+              <span class="nav__notification badge">1</span>
+              <span class="material-symbols-outlined icon-style-fill">
+                chat_bubble
+              </span>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a href="find.html">
+              <span class="material-symbols-outlined"> search </span>
+            </a>
+          </li>
+          <li class="nav__btn">
+            <a href="more.html">
+              <span class="material-symbols-outlined"> more_horiz </span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </footer>
+
+    <div id="no-mobile">
+      <span>画面の横幅をもっと狭くしてください😓</span>
+    </div>
+  </body>
+</html>
