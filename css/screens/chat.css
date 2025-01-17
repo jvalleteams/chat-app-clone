@@ -27,7 +27,7 @@
     opacity: 0;
   }
   to {
-    transform: none;
+    transform: translateY(0px);
     opacity: 1;
   }
 }
@@ -110,7 +110,7 @@
   background-color: white;
   display: flex;
   justify-content: space-between;
-  padding: 5px 25px;
+  padding: 5px 10px;
   box-sizing: border-box;
   align-items: center;
   transition: transform 0.3s ease-in-out;
@@ -130,7 +130,7 @@
 
 .reply input {
   padding: 14px;
-  width: 100%;
+  width: 85%;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 25px;
   box-sizing: border-box;
@@ -177,7 +177,7 @@
 
 .reply input:focus {
   width: 98vw;
-  transform: translateX(-13%) translateY(-80px);
+  transform: translateX(-11%) translateY(-80px);
 }
 
 .reply:focus-within {
